@@ -16,7 +16,7 @@ PSP_MAIN_THREAD_ATTR(THREAD_ATTR_USER);
 
 int main_thread(SceSize args, void *argp){
 	// wait for psp boot
-	sceKernelDelayThread(5 * 1000 * 1000);
+	sceKernelDelayThread(10 * 1000 * 1000);
 	
 	unsigned int* vram32;
 	int unk, bufferwidth, pixelformat, pwidth, pheight;
@@ -30,8 +30,8 @@ int main_thread(SceSize args, void *argp){
 		// sceDisplayGetFrameBuf((void*)&vram32, &bufferwidth, &pixelformat, PSP_DISPLAY_SETBUF_NEXTFRAME  );
 		
 		#define SQUARE 25
-		#define X_POS 100
-		#define Y_POS 100
+		#define X_POS 50
+		#define Y_POS 50
 		for (int i = 0; i < SQUARE; i++){
 			for (int j = 0; j < SQUARE; j++){
 				vram32[(Y_POS + i) * bufferwidth + (X_POS + j)] = 0xFFFFFFFF;
