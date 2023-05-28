@@ -1,4 +1,4 @@
-# Test Square - PRX 
+# Draw square plugin
 Draw a red square on screen with a plugin.  
 This is a sample code for creating a plugin that draws something on screen.  
 
