@@ -21,4 +21,4 @@ Special thanks to [krazynez](https://github.com/krazynez) for helping debug a cr
 
 
 ## License
-All code, except cJSON, is under Creative Commons [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). 
+Creative Commons [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). 
