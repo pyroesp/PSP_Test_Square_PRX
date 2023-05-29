@@ -5,7 +5,7 @@ BUILD_PRX = 1
 OBJS = main.o
 
 INCDIR = 
-CFLAGS = -Os -G0 -Wall
+CFLAGS = -Os -Wall
 CXXFLAGS = $(CFLAGS) -fno-exceptions -fno-rtti
 ASFLAGS = $(CFLAGS)
 
